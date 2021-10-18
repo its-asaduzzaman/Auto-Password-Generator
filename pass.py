@@ -35,3 +35,16 @@ for itm in password:
     easy_final_password += itm
 
 print(f"Easy one : {easy_final_password}")
+
+
+#Hard Level - Order of characters randomised:
+#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+
+random.shuffle(password)
+
+hard_final_password = ""
+
+for itm in password:
+    hard_final_password += itm
+
+print(f"Hard one : {hard_final_password}")
